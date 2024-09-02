@@ -1,0 +1,13 @@
+from re import finditer
+
+text="abc123 @gmail.com"
+
+# pattern="[\D]" #It exclude numbers
+# pattern="[\d]" #It include only numbers
+# pattern="[\w]" #It exclude only special characters and returns alphanumeric
+# pattern="[\W]" #It exclude only alphanumeric and returns special characters and space
+pattern="[\s]" #It 
+matcher=finditer(pattern,text)
+
+for m in matcher:
+    print(m.start(),"=",m.group())

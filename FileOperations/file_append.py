@@ -1,0 +1,5 @@
+f=open("C:\\Users\\akhil\\Desktop\\PythonJune\\FileOperations\\frameworks.txt","a")
+f.write("Django"+"\n")
+f.write("Flusk"+"\n")
+f.write("Angular"+"\n")
+f.write("React"+"\n")
